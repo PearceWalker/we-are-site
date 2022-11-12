@@ -14,7 +14,8 @@
     
 }
 
-.left-side{}
+.left-side{
+
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -23,12 +24,46 @@
     border: 1px solid black;
 }
 
+#carouselExampleIndicators {
+    width: 70%;
+}
+
+#carouselExampleFade {
+    width: 70%;
+}
+
+.upper-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    border-bottom: 1px solid black;
+}
+
+.bottom-left {
+height: 50vh;
+}
+
 .right-side {
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 1px solid black;
+}
+
+.upper-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    border-bottom: 1px solid black;
+}
+.bottom-right {
+    height: 50vh;
 }
 
 
