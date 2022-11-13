@@ -8,28 +8,29 @@
     animation: 1s ease-in slideFromTop ;
 }
 
-.container{
+.contain{
     width: 100%;
+   
     display: flex;
     
 }
 
 .left-side{
 
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+   
 }
 
 #carouselExampleIndicators {
-    width: 70%;
+    width: 50%;
 }
 
 #carouselExampleFade {
-    width: 70%;
+    width: 50%;
 }
 
 .upper-left{
@@ -39,19 +40,28 @@
     align-items: center;
     height: 50vh;
     border-bottom: 1px solid black;
+    background-color: #661424;
+}
+
+.upper-left h1 {
+    margin-bottom: 50px;
+    color: white;
+    
 }
 
 .bottom-left {
 height: 50vh;
+display: flex;
+align-items: center;
 }
 
 .right-side {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+  
 }
 
 .upper-right{
@@ -61,16 +71,40 @@ height: 50vh;
     align-items: center;
     height: 50vh;
     border-bottom: 1px solid black;
+    background-color: #661424;
 }
+
+.text-1 h1 {
+   
+    font-weight: 200;
+    text-align: center;
+}
+
+.text-2 h1 {
+    font-weight: 200;
+    text-align: center;
+}
+
+.upper-right h1 {
+    margin-bottom: 50px;
+    color: white;
+}
+
 .bottom-right {
     height: 50vh;
+    display: flex;
+align-items: center;
+}
+
+span {
+    font-weight: 600;
 }
 
 
 
 @keyframes  slideFromTop {
     0%{
-transform: translateY(-1.5%);
+transform: translateY(-10%);
 filter: blur(.7px);
     }
     100%{
@@ -89,8 +123,16 @@ filter: blur(0px);
             }
 }
 
-@media (max-width: 868px) {
-   
+@media (max-width: 1000px) {
+   .contain {
+    display: flex;
+    flex-direction: column;
+    
+   }
+
+   .active-1{
+    animation: none;
+   }
 }
 @media (min-width: 1921px) {
    .container{
