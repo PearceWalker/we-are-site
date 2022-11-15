@@ -79,17 +79,20 @@ background-image: linear-gradient( #661424, #fff);
 }
 
 .text-1 h1 {
-   
+   color: #fff;
     font-weight: 200;
     text-align: center;
 }
 
 .text-2 h1 {
+
+    color: #fff;
     font-weight: 200;
     text-align: center;
 }
 
 .upper-right h1 {
+   
     margin-bottom: 50px;
     color: white;
 }
