@@ -53,7 +53,11 @@ margin-left: 150px;
 
 .upper-left img {
     width: 75%;
-    
+    box-shadow: 0px 10px  ;
+}
+
+.new-section .upper-left img {
+    box-shadow: 0px 10px rgb(88, 87, 87);
 }
 
 .upper-left h1 {
@@ -81,6 +85,7 @@ justify-content: center;
     align-items: center;
    border-left: 1px solid black;
    margin-right: 100px;
+   
 }
 
 .upper-right{
@@ -94,6 +99,7 @@ justify-content: center;
 }
 .upper-right img {
     width: 75%;
+    box-shadow: 0px 10px ;
 }
 
 
